@@ -1,0 +1,12 @@
+name: sc-env
+channels:
+    - defaults
+    - bioconda
+    - conda-forge
+dependencies:
+    - python=3.8
+    - numpy
+    - scipy
+    - pandas
+    - scanpy
+    - Jupyter
