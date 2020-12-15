@@ -4,9 +4,16 @@ channels:
     - bioconda
     - conda-forge
 dependencies:
-    - python=3.8
+    - python=3.8 
+    - scanpy
+    - pip
+    - pip:
+        - scpopcorn
+    - R=4.0.2
+    - r-essentials
+    - r-irkernel
+    - r-seurat   
+    - Jupyter
     - numpy
     - scipy
     - pandas
-    - scanpy
-    - Jupyter
