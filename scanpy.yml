@@ -1,0 +1,15 @@
+name: scanpy
+channels:
+    - defaults
+    - bioconda
+    - conda-forge
+dependencies:
+    - python=3.8 
+    - scanpy=1.5.1
+    - pip
+    - pip:
+        - scpopcorn
+    - Jupyter
+    - numpy
+    - scipy
+    - pandas
